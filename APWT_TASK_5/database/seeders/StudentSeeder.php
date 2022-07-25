@@ -14,6 +14,11 @@ class StudentSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('students')->insert([
+            'name' => 'zarif',
+            'password' => "Sanad@123",
+            'email' => "sanad@gmail.com",
+            'phone' => '01942516575',
+        ]);
     }
 }
