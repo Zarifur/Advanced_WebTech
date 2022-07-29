@@ -6,7 +6,7 @@ function Head() {
         <div>
             <Link to="/">Home</Link>
             <Link to="/profile">Profile</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/Student">student</Link>
         </div>
         
     );
